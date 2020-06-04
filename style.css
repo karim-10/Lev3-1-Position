@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet");
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(28, 32, 37);
+    height: 100vh;
+}
+/*---------------- Head ----------------*/
+
+section{
+    position: relative;
+    height: 5vh;
+    border-top: 1px solid gray;
+}
+section:nth-child(1) h1{
+    position: relative;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: gray;
+    /*font-family: 'Monoton', cursive;*/
+
+}
+section:nth-child(1) h2 {
+    position: relative;
+    margin-left: 80px;
+    margin-top: -25px;
+    font-size: 12px;
+    color: gray;
+
+}  
+a {
+    color: gray;
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+}
+/*---------------- nav ul li -------------*/
+ul{
+    list-style-type: none;
+}
+nav li{
+    position: absolute;
+    top: 0;
+}
+nav li:nth-of-type(1){
+    left: 40%;
+    top: 10px;
+}
+nav li:nth-of-type(2){
+    left: 50%;
+    top: 10px;
+}
+nav li:nth-of-type(3){
+    left: 62%;
+    top: 10px;
+}
+nav li:nth-of-type(4){
+    left: 70%;
+    top: 10px;
+}
+
+
+
+ /*------- Minimalism....+ shop all -------*/
+
+ section:nth-child(2) p{
+    margin-top: 300px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    color: white;
+ }
+ section:nth-child(2) h3{
+     margin-left: 150px;
+     color: orange;
+ }
+
+/*---------------- image -------------------*/
+
+ section:nth-child(2) img {
+    height: 700px;
+    width: 250px;
+    position: relative;
+    left: 600px;
+    top: -400px;
+ }
+ section:nth-child(2) img:nth-of-type(2){
+    height: 700px;
+    width: 250px;
+    position: relative;
+    left: 620px;
+    top: -400px;
+ }
+ section:nth-child(2) img:nth-of-type(3) {
+    height: 700px;
+    width: 250px;
+    position: relative;
+    left: 640px;
+    top: -400px;
+ }
+
+ /*------ footer  icons .. facebook..twitter..instagram  ------*/
+footer {
+    position: absolute;
+    bottom: -130px;
+    left: 150px;
+}
+.fa{
+    text-decoration: none;
+    font-size: 50px;
+    width: 30px;
+    
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook {
+    background:rgb(28, 32, 37);
+    color: gray;
+    margin-right: 5px;
+
+}
+.fa-instagram {
+    background: rgb(28, 32, 37);
+    color: grey;
+    margin-right: 5px;
+}
+.fa-twitter {
+    background: rgb(28, 32, 37);
+    color: gray
+}
+
+.fa-chevron-circle-left {
+    color: gray;
+    margin-left: 700px;
+    width: 40px;
+}
+.fa-chevron-circle-right {
+    color: gray;
+    
+}
+/*------------------------------- The End --------------------------------*/
